@@ -37,7 +37,7 @@ xmlns:_acl="java:com.arbortext.epic.Acl"
    <xsl:param name="skip-post-gentext-pass" select="'no'"/>
    <xsl:param name="gte-namespace-uri"
               select="'http://www.arbortext.com/namespace/Styler/GeneratedTextElements'"/>
-
+<!-- testing comment -->
      <xsl:template match="@*|node()" mode="expand-gentext">
       <xsl:copy>
          <xsl:apply-templates select="@*|node()" mode="expand-gentext"/>
